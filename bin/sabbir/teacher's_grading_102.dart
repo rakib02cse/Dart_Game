@@ -8,6 +8,7 @@ void main() {
   final studentExam = 50 * 94 / 100;
 
   final studentGrade = studentAttendence + studentHomework + studentExam;
-  int finalGrade = studentGrade.floor();
+  int finalGrade = studentGrade
+      .floor(); //floor is a methood where we return rounddown integer value
   print("finalGrade:$finalGrade%");
 }
