@@ -1,3 +1,3 @@
-main (){
-  print (5+3);
+main() {
+  print(14 + 3);
 }
