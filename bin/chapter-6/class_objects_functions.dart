@@ -1,5 +1,5 @@
 class MyClass {
-  var myProperty ='Hello, Dart!'; //data
+  var myProperty ='Hello, Dart!'; //instance for data
 
  // MyClass(); //constructor
 
@@ -9,6 +9,6 @@ class MyClass {
 }
 
 void main() {
-  var obj =MyClass();
-  obj.myMethod();
-}
+  var obj =MyClass(); //instance of object
+  obj.myMethod(); //method calling
+} 
