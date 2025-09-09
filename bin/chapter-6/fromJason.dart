@@ -22,7 +22,7 @@ class User {
     final userId = json['idAPI'] as int;
     final userName = json['nameAPI'] as String;
 
-    return User(id: userId, name: userName);
+    return User(id: userId, name: userName); 
   }
 }
 

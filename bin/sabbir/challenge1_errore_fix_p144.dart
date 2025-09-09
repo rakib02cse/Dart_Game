@@ -9,6 +9,6 @@ void main() {
   } else {
     lastName = '';
   }
-  final fullName = firstName + '' + lastName;
+  final fullName = '$firstName$lastName';
   print(fullName);
 }
