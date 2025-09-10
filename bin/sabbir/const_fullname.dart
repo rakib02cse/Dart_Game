@@ -6,13 +6,8 @@ void main() {
   // print("LastName: $lastName");
 
   const fullName = '$firstName $lastName';
-
   print(fullName);
-
-  const myDetails = 'My name is: $fullName';
-
-  print(myDetails);
-
+  
 
 
 }

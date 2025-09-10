@@ -21,7 +21,7 @@ class User {
     final userName = json ['name'] as String;
     return User (id: userId, name: userName);
   }
-
-
 }
+
+
 

@@ -7,6 +7,8 @@ void main() {
 
   // User a =   User.eidaDiyaJsonkeDartObjectBanamu(kindaAParameter: ektaAPIthekeAshaVariable ) ;
   User a = User.fromJson(ektaAPIthekeAshaVariable);
+  print (a.id);
+  print (a.name);
 }
 
 class User {
