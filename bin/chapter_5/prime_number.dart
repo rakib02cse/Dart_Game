@@ -14,6 +14,6 @@ void main() {
   print(isPrime(2));   // true
   print(isPrime(15));  // false
   print(isPrime(17));  // true
-  print(isPrime(19));  // true
+  print(isPrime(19));  // true 
   print(isPrime(20));  // false
 }
