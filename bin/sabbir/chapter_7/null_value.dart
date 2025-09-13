@@ -8,7 +8,7 @@ void main() {
 
   String name = 'sabbir';
   print(name);
-  print(name!.length);
+  print(name.length);
   print(name);
   print(name);
   print(name);
