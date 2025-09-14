@@ -5,7 +5,7 @@ void main() {
     if (anInteger == null) {
       return false;
     }
-    return !anInteger.isNegative;
+    return !anInteger.isNegative; //null assertion oparation !
   }
 
   print(anInteger);
