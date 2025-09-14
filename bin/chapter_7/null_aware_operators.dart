@@ -3,13 +3,15 @@
 // Null_aware access operator (?.)
 // null_aware method Invocation operator (?.)
 // null assertion operator (!)
-// null-awqare cascad operator (?..)
+// null-aware cascad operator (?..)
 // null-aware indes operator (?[])
 // null-aware spred operator (..?)
 
 
 void main(){
   String? message = 'Rakib';
-  final text = message ?? 'Error';
+  final text = message ?? 'Error'; // null- aware assignment operator
   print(text);
+  int age=20;
+  print ( age?. toDouble());// null-aware method invocation operator
 }
