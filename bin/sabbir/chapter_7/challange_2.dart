@@ -21,9 +21,9 @@ class Name {
 }
 
 void main() {
-  var person1 = Name(giveName: 'SABBIR', surname: 'Mazumder');
-  var person2 = Name(giveName: 'RAKIB', surname: 'KHAN', surnameIsFirstname: true);
-  var person3 = Name(giveName: 'mostafiz');
+  var person1 = Name(giveName: 'Sabbir', surname: 'Mazumder');
+  var person2 = Name(giveName: 'Rakib', surname: 'Khan', surnameIsFirstname: true);
+  var person3 = Name(giveName: 'Mostafiz');
 
   print(person1);
   print(person2);
