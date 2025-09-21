@@ -1,5 +1,5 @@
 void main() {
-  const peanutAllergy = true;
-  const candy = ['Junior Mints', 'Twizzlers', if (!peanutAllergy) 'Reeses'];
-  print(candy);
+  const cakeAllergy = true;
+  const Desert = ['Cake', 'Sweets : kalojam', if (!cakeAllergy) 'Reeses'];
+  print(Desert);
 }
