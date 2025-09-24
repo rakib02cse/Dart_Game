@@ -4,7 +4,7 @@ class User {
 }
 
 User? user = User()
-  ?..name = 'sabbir'
+  ..name = 'sabbir'
   ..id = 20;
 
 void main() {
