@@ -1,4 +1,4 @@
-import 'package:characters/characters.dart';
+//import 'package:characters/characters.dart';
 
 
 void main(){
@@ -11,7 +11,7 @@ void main(){
   print('Unicode code points: ${vote.runes.length}');
 
   //unicode grapheme clusters (requires charecters package)
-  print('Unicode grapheme clusters: ${vote.characters.length }');
+  //print('Unicode grapheme clusters: ${vote.characters.length }');
   
  
   
