@@ -7,13 +7,13 @@ void main() {
 }
 
 class Person {
-  final String firstName; //instance
-  final String lastName; //instance
+  final String firstName; 
+  final String lastName;
 
-  Person(this.firstName, this.lastName); //constructar
+  Person(this.firstName, this.lastName); 
   void display() {
     //display method
-    print('Name : $firstName $lastName'); //$ - string interpolation
+    print('Name : $firstName $lastName'); 
   }
 }
 
