@@ -23,6 +23,15 @@ class Student extends Person {
 
   var grades = <Grade>[];
 }
+class SomeClass implements AnoterClass {
+  @override
+  int myField = 0;
+  @override
+  void myMethod ()  => print('Hello');
+}
+final someClass = SomeClass ();
+print (someClass.myField) ;
+someClass.myMethod()
 
 class Grade {
   final String subject;
